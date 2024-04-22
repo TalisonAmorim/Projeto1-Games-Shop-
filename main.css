@@ -7,20 +7,30 @@ header,
 section h2,
 section h3,
 form button{
-    font-family: "Bungee", sans-serif;
-    font-weight: normal;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 body, 
 input, 
 textarea{
-    font-family: "Roboto", sans-serif;
+    
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container img{
+    height: 500px;
+    border-radius: 20px;
 }
 
 header{
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #076600; 
+    color: #ffffff;
 }
 
 
@@ -70,7 +80,7 @@ section h2{
 }
 
 section {
-    color: #182c61;
+    color: #021c01;
 }
 
 section p {
@@ -122,24 +132,25 @@ section h3 {
 }
 
 form button{
-    background-color:  #182c61;
+    background-color:  #076600;
     color: #ecf0f1;
     border: nome;
     cursor: pointer;
 }
 
 form button:hover{
-    background-color:  #3e5aa6;
+    background-color:  #4b9746;
 }
 
 input:focus,
 textarea:focus{
-    outline-color:#182c61;
+    outline-color:#076600;
 }
 
 footer{
-    background-color: #182c61;
-    color: #ecf0f1;
-    padding: 16px 0;
-
+    background-color: #076600;
+    color: #ffffff; 
 }
+
+
+
